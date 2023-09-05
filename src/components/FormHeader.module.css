@@ -1,0 +1,107 @@
+
+.formHeader{
+    font-family: 'Proxima';
+    font-size: 42px;
+    width: 732px;
+}
+
+.openbox{
+    position: relative;
+    right: 0px;
+    z-index: 0;
+}
+
+.openboxcover{
+    position: relative;
+    right: 220px;
+    top: 17px;
+    /* right: 53.3px; */
+    z-index: -5;
+}
+
+/* Folded Shirt and Animation */
+.foldedshirt{
+    position: relative;
+    right: 90px;
+    top: 27px;
+    z-index: -1;
+    /* transform: translateX(270px); */
+    /* z-index: -5; */
+    /* animation: moveleft 2s; */
+}
+
+.arrows{
+    position: relative;
+    right: 330px;
+    top: 70px;
+    /* z-index: 12; */
+}
+
+.arrow1{
+    position: absolute;
+    right: 9.54%;
+    top: 11.4%;
+}
+
+.arrow2{
+    position: absolute;
+    right: 7.54%;
+    top: 11.4%;
+}
+
+
+@keyframes moveright {
+    100% {
+        transform: translateX(270px);
+    }
+} 
+
+@keyframes moveleft {
+    100% {
+        transform: translateX(-10px);
+    }
+} 
+
+
+/* bc 992 - 1220 shirt started skipping lines */
+@media screen and (max-width: 1220px) {
+    .shirtSec{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .formHeader{
+        font-size: 32px;
+        width: 550px;
+        margin-bottom: 30px;
+    
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .formHeader{
+        font-size: 48px;
+        /* max-width: 1000px; */
+        width: 800px;
+        margin-bottom: 30px;
+    
+    }
+
+}
+
+
+/* .formContainer{
+    margin: 80px;
+    font-weight: 400;
+    position: relative;
+} */
+
+/* .divv{
+    display: inline-block;
+    z-index: -1;
+} */
+
+

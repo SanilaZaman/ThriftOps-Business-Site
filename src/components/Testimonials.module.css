@@ -1,0 +1,70 @@
+.testimContainer{
+    margin:0;
+    background-image:  url('/pink-grid.png');
+    height: 766px;
+    max-width: 1223px;
+    /* position: relative; */
+    margin-left: 280px;
+    /* float: right; */
+    /* width: 100%; */
+
+}
+.testimHeading{
+    background-color: white;
+    border: 3px solid black;
+    height: 53px;
+    text-align: center;
+    src: url('/fonts/ProximaNovaMedium.otf');
+    font-family: 'Proxima Nova';
+    font-size: 42px;
+    max-width: 447px;
+    position: relative;
+    /* left: -30px; */
+    top: 80px;
+    margin-bottom: 150px;
+    margin-left: -138px;
+    /* margin-top:10px; */
+}
+
+.cards{
+    margin:0 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: -138px;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* .testimContainer{
+    background-image:  url('/pink-grid.png');
+    height: 766px;
+    position: relative;
+    display: flex;
+    float: right;
+} */
+
+/* .cards{
+    position: absolute;
+    left: -40px;
+    margin: 180px 0;
+    
+}
+
+.testimHeading{
+    background-color: white;
+    border: 3px solid black;
+    height: 53px;
+    text-align: center;
+    src: url('/fonts/ProximaNovaMedium.otf');
+    font-family: 'Proxima Nova';
+    font-size: 42px;
+    position: absolute;
+    left: -30px;
+    top: 80px;
+
+} */
+
+

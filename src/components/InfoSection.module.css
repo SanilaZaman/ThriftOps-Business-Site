@@ -1,0 +1,369 @@
+.infoContainer{
+  /* background-image:  url('/black-grid.png'); */
+  /* height: 766px;
+  width: 100%; */
+  position: sticky;
+  background-image:  url('/black-grid.png');
+  min-height: 766px;
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+}
+
+.infoHeaderMobile{
+  visibility: hidden;
+}
+
+.infoHeader{
+  position: relative;
+  bottom: 40px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+/* Animation Section */
+
+.infoRect{
+  margin: auto;
+  margin-top: 80px;
+  position: relative;
+  width: 650px;
+  height: 331px;
+  border: 3px solid black;
+  background-color: white;
+  border-radius: 4px;
+}
+.infotopbox1{
+  width: max-content;
+  font-size: 42px;
+  src: url('/fonts/ProximaNovaMedium.otf');
+  font-family: 'Proxima Nova';
+  border: 2px solid black;
+  background-color: white;
+  font-weight: 500;
+  padding: 0px 10px;
+
+  position: absolute;
+  left: -30%;
+  top: -10%;
+}
+
+.infotopbox2{
+  width: max-content;
+  font-size: 42px;
+  src: url('/fonts/ProximaNovaMedium.otf');
+  font-family: 'Proxima Nova';
+  border: 2px solid black;
+  background-color: white;
+  font-weight: 500;
+  padding: 0px 10px;
+
+  position: absolute;
+  left: -18%;
+  top: -10%;
+}
+
+
+.infobottombox1{
+  width: max-content;
+  font-size: 16px;
+  font-weight: 300;
+  border: 2px solid black;
+  background-color: white;
+  width: 406px;
+  padding: 10px 10px 0px 10px;
+
+  position: absolute;
+  right: -30%;
+  bottom: -30%;
+}
+
+  /* 3rd anim onwards bottom box */
+.infobottombox2{
+  width: max-content;
+  font-size: 16px;
+  font-weight: 300;
+  border: 2px solid black;
+  background-color: white;
+  width: 406px;
+  padding: 10px 10px 0px 10px;
+
+  position: absolute;
+  right: -30%;
+  bottom: -20%;
+}
+
+.infoShoes{
+  position: absolute;
+  top: 24%;
+  left: 14%;
+}
+.infoShoes2{
+  position:absolute;
+  left: 50%;
+  top:5%;
+}
+
+.infoArrow{
+  position: absolute;
+  top: 26%;
+  left: 53%;
+}
+
+.infoLines{
+  position: absolute;
+  top: 30%;
+  left: 55%;
+}
+.infoLiveButton{
+  position: absolute;
+  top: 65%;
+  left: 55%;
+}
+.infoshopify{
+  position: absolute;
+  left: 86.81%;
+  right: -1.71%;
+  top: -5%;
+  bottom: 61.21%;
+}
+
+.infoamazon{
+  position: absolute;
+  left: 90.53%;
+  right: -5.23%;
+  top: 41.12%;
+  bottom: 35.51%
+}
+
+.infoebay{
+  position: absolute;
+  left: 86.81%;
+  right: -1.31%;
+  top: 76.52%;
+  bottom: 4.44%;
+}
+
+.infoButton{
+  position: absolute;
+  right: 8px;
+  bottom: -10px;
+  cursor:pointer;
+  /* here change to - 20 */
+  /* max-width: 100%; */
+  transition: all 1s;
+}
+
+.infoButton:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
+  
+  
+
+@media screen and (max-width: 600px) {
+
+  .infoContainer{
+    margin:0;
+    background-image:  url('/black_grid_mobile.svg');
+    height:844px;
+    width: 100%;
+    position: relative;
+  }
+
+  .infoHeader{
+    visibility: hidden;
+  }
+
+  .infoHeaderMobile{
+    visibility: visible;
+    position: relative;
+    width: 292px;
+    height: 186px;
+    left: 40px;
+    top: -150px;
+    /* max-width: 100%; */
+  }
+
+  .infoRect{
+    position: relative;
+    margin: 0;
+    bottom: 80px;
+    /* width: 100%;  */
+    max-width: 100%;
+    height: 437px;
+    border: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    border-radius: 0px;
+  }
+
+  .infoButton{
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    width: 126px;
+    height: 126px;
+
+  }
+
+  .infotopbox1{
+    width: max-content;
+    font-size: 22px;
+    src: url('/fonts/ProximaNovaMedium.otf');
+    font-family: 'Proxima Nova';
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 500;
+    /* padding: 0px 10px; */
+  
+    position: absolute; 
+    /* left: 2%;
+    top: -7%; */
+    top: -5%; 
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .infotopbox2{
+    width: max-content;
+    font-size: 22px;
+    src: url('/fonts/ProximaNovaMedium.otf');
+    font-family: 'Proxima Nova';
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 500;
+    padding: 0px 10px;
+  
+    position: absolute;
+    top: -5%; 
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .infobottombox1{
+    /* width: max-content; */
+    font-size: 12px;
+    font-weight: 300;
+    border: 2px solid black;
+    background-color: white;
+    width: 348px;
+    padding: 10px 10px 0px 10px;
+  
+    position: absolute;
+    /* left: 2%;
+    bottom: -10%; */
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+
+  .infobottombox2{
+    /* width: max-content; */
+    font-size: 12px;
+    font-weight: 300;
+    border: 2px solid black;
+    background-color: white;
+    max-width: 348px;
+    padding: 10px 10px 0px 10px;
+  
+    position: absolute;
+    /* left: 2%;
+    bottom: -10%; */
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .infoShoes{
+    position: absolute;
+    width: 201px;
+    height: 138px;
+    top: 30%;
+    left: 8%;
+  }
+  
+  .infoArrow{
+    position: absolute;
+    top: 26%;
+    left: 58%;
+    /* right:2%; */
+    width: 140px;
+    height: 118px;
+  }
+  
+  .infoShoes2{
+    position:absolute;
+    width: 231px;
+    height: 145px;
+    left: 60%;
+    top: 70px;
+    /* left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; */
+    /* bottom: 100%; */
+    /* top: 50%;
+    left: 50%; */
+  }
+
+  .infoLines{
+    display: block;
+    position:absolute;
+    width: 220px;
+    height: 91px;
+    left: 25%;
+    top: 200px;
+  }
+  .infoLiveButton{
+    position: absolute;
+    top: 320px;
+    left: 24%;
+  }
+
+  .infoshopify{
+    position: absolute;
+    left: 62.81%;
+    right: -1.71%;
+    top: 7%;
+    bottom: 61.21%;
+    width: 130px;
+    height: 99px;
+  }
+  
+  .infoamazon{
+    position: absolute;
+    left: 66.53%;
+    right: -5.23%;
+    top: 36.12%;
+    bottom: 35.51%;
+    width: 129px;
+    height: 69px;
+  }
+  
+  .infoebay{
+    position: absolute;
+    left: 62.81%;
+    right: -1.31%;
+    top: 58.52%;
+    bottom: 4.44%;
+    width: 132px;
+    height: 87px;
+  }
+}
+
