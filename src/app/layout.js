@@ -1,9 +1,9 @@
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
 import { Suspense } from 'react'
-import { FacebookPixelEvents } from '../components/pixel-events'
+import { FacebookPixelEvents } from '@/components/pixel-events';
 
 const inter = Inter({ subsets: ['latin'] })
 
