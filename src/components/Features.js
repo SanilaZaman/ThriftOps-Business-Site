@@ -25,7 +25,7 @@ const Features = () => {
                 </div>
                 <div class="col " >
                     <ul className={isInView? styles.heroInfolist: styles.space}>
-                        <li>Comprehensive inventory management system </li>
+                        <li>Effortless Listing: Say goodbye to manual listing headaches. ThriftOps streamlines the process, making it easier than ever to upload and manage your thrift store inventory.</li>
                         <li>Advanced barcode processes for efficient tracking </li>
                         <li>Streamlined uploading and organisation of products</li>
                         <li>Timely dispatch of goods for efficient operations</li>
