@@ -69,10 +69,10 @@ const MyHero = () => {
         </div>
         <div class="col my-auto" >
           <div className={styles.heroText} >
-            <h3 className={styles.heroHeader} >Scale your circular-fashion business</h3>
-            <p className={styles.heroDesc}>Take control of your thrift business with Thrift Ops&apos; hassle-free and scalable solutions for optimised operations</p>
+            <h3 className={styles.heroHeader} >Effortless Listings for Thrift Sellers</h3>
+            <p className={styles.heroDesc}>Increase Your Sales with ThriftOps' Seamless Listing Service</p>
           </div>
-          <HatButton text={'Book a demo'} className={styles.heroHatBtn} />
+          <HatButton text={'Start Listing Now'} className={styles.heroHatBtn} />
         </div>
       </div>
 
