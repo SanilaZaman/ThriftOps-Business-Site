@@ -27,7 +27,7 @@ const Features = () => {
                     <ul className={isInView? styles.heroInfolist: styles.space}>
                         <li><b>Effortless Listing:</b> Upload and manage thrift store inventory with ease.</li>
                         <li><b>For All Sellers:</b> User-friendly platform caters to all experience levels.</li>
-                        <li><b>Maximized Sales Potential:</b> List hundreds of products daily and focus on growth.</li>
+                        <li><b>Maximized Sales:</b> List hundreds of products daily and focus on growth.</li>
                         <li><b>Seize Opportunities:</b> Unlock full inventory potential and stay competitive.</li>
                     </ul>
                 </div>
