@@ -23,7 +23,7 @@ const Navbar = () => {
           />
         </a>
         
-        <button type="button" className={`${styles.navbtn} btn btn-outline-danger`} ><a className={styles.link} href='#form'> Book a demo</a></button>
+        <button type="button" className={`${styles.navbtn} btn btn-outline-danger`} ><a className={styles.link} href='#form'> Start Listing Now</a></button>
       </nav>
    
   )
