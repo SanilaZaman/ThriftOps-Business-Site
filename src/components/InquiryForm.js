@@ -53,7 +53,7 @@ const InquiryForm = () => {
                   </div>
                   {/* Needed services */}
                   <div class="col-md-6 form-group mb-3">
-                    <label for="services" className={`${styles.labels} col-form-label`} >Services Required *</label>
+                    <label for="services" className={`${styles.labels} col-form-label`} >Store Type *</label>
                     <select name='Needed Services' className={`${styles.formInput} form-control form-select`}  placeholder="Password" required>
                       <option>Reseller</option>
                       <option>Vintage Store</option>
@@ -65,12 +65,12 @@ const InquiryForm = () => {
                 </div>
 
                 {/* Message */}
-                <div class="row">
+               /* <div class="row">
                   <div class="col-md-12 form-group mb-3">
                     <label className={`${styles.labels} col-form-label`} >Message *</label>
                     <textarea  className={`${styles.formInput} form-control`} name="Message" cols="30" rows="4"  placeholder="Write your message"></textarea>
                   </div>
-                </div>
+                </div>*/
                 <div class="row">
                   <div class="col-md-12 form-group">
                   <div className={styles.parent}>
@@ -79,7 +79,7 @@ const InquiryForm = () => {
                     </a>
                   {/* To not redirect to quickforms page */}
                     <iframe name="hiddenFrame" width="0" height="0" border="0" className={styles.vis} ></iframe>
-                    <input type="submit" className={styles.btnblack} value="Let's Go" />
+                    <input type="submit" className={styles.btnblack} value="Start listing now!" />
                   
                   <ToastContainer />
                   
