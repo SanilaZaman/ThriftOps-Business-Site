@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Thrift Ops',
-  description: "Take control of your thrift business with Thrift Ops' hassle-free and scalable solutions for optimised operations",
+  description: "Increase Your Sales with ThriftOps' Seamless Listing Service",
 }
 
 export default function RootLayout({ children }) {
