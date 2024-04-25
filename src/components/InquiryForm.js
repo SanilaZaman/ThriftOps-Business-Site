@@ -48,16 +48,17 @@ const InquiryForm = () => {
                 <div class="row">
                   {/* Company */}
                   <div class="col-md-6 form-group mb-3">
-                    <label className={`${styles.labels} col-form-label`}>Company *</label>
-                    <input  type="text"  name="Company"  className={`${styles.formInput} form-control`} placeholder="Your company" required/>
+                    <label className={`${styles.labels} col-form-label`}>Phone *</label>
+                    <input  type="text"  name="Company"  className={`${styles.formInput} form-control`} placeholder="Your phone" required/>
                   </div>
                   {/* Needed services */}
                   <div class="col-md-6 form-group mb-3">
                     <label for="services" className={`${styles.labels} col-form-label`} >Services Required *</label>
                     <select name='Needed Services' className={`${styles.formInput} form-control form-select`}  placeholder="Password" required>
-                      <option>Book a demo</option>
-                      <option>Book a call</option>
-                      <option>Discuss Pricing</option>
+                      <option>Reseller</option>
+                      <option>Vintage Store</option>
+                      <option>Thrift Store</option>
+                      <option>Charity Store</option>
                       <option>Other</option>
                     </select>
                   </div>
