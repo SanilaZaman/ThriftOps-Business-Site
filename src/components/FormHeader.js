@@ -10,7 +10,7 @@ const FormHeader = () => {
   return (
         <div class="row d-flex justify-content-between">
             <div  className={`${styles.formHeader} col-lg-8`}>
-              Say goodbye to thrift inventory woes - Schedule your Demo today!
+            Start Listing Now and Claim Your Free Listings!
             </div>
             <div className={`${styles.shirtSec} col-lg-4 d-none d-lg-flex`}>
               <motion.div  style={{x: xPosAnim}} >
