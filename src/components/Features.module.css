@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 700px) {
     .heroInfolist{
-   font-size: calc(25px - 25%);
+   font-size: calc(25px - 50%);
   font-weight: 200;
     }
     .heroContainer2{
@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 701px) and (max-width: 992px) {
     .heroInfolist{
-        font-size: calc(35px - 25%);
+        font-size: calc(35px - 50%);
         font-weight:200;
     }
     .heroContainer2{
@@ -52,7 +52,7 @@
         margin-bottom: 250px;
     }
     .heroInfolist{
-        font-size: calc(24px - 25%);
+        font-size: calc(24px - 50%);
     font-weight: 200;
     margin-top: 40px;
     }
@@ -75,7 +75,7 @@
         margin-bottom: 250px;
     }
     .heroInfolist{
-        font-size: calc(27px + 0.2vw - 25%);
+        font-size: calc(27px + 0.2vw - 50%);
     font-weight: 200;
     margin-top: 40px;
     }
@@ -98,7 +98,7 @@
     }
 
     .heroInfolist{
-        font-size: calc(30px + 0.52vw - 25%);
+        font-size: calc(30px + 0.52vw - 50%);
     font-weight: 200;
     margin-top: 60px;
     }
@@ -123,7 +123,7 @@
     }
 
     .heroInfolist{
-        font-size: calc(42px - 25%);
+        font-size: calc(42px - 50%);
     font-weight: 200;
     margin-top: 60px;
     }
