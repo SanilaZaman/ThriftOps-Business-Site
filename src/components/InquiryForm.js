@@ -63,7 +63,7 @@ const InquiryForm = () => {
                     </select>
                   </div>
                 </div>
-
+<br><br><br><br><br>
                 {/* Message */
                /* <div class="row">
                   <div class="col-md-12 form-group mb-3">
