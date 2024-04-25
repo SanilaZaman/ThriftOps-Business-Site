@@ -6,7 +6,7 @@
 }
 
 .heroHeader{
-  font-size: calc(16px * 1.2); /* Increase font size by 20% */
+  font-size: calc(16px * 1.6); /* Increase font size by 20% */
   font-family: 'Proxima';
 }
 
@@ -29,7 +29,7 @@
         visibility: visible;
     }
     .heroHeader{
-    font-size: calc(38px * 1.2);
+    font-size: calc(38px * 1.6);
     /* src: url('/fonts/ProximaNovaMedium.otf');
     font-family: 'Proxima Nova'; */
   }
@@ -155,7 +155,7 @@
         animation-delay: 1.5s;  
     }
   .heroHeader{
-    font-size: clamp(42px * 1.2, calc(36.5px * 1.2 + 0.4vw) ,56px * 1.2)
+    font-size: clamp(42px * 1.6, calc(36.5px * 1.6 + 0.4vw) ,56px * 1.6)
   }
     .heroDesc{
         /* font-size:16px; */
@@ -239,7 +239,7 @@
        
     }
   .heroHeader{
-    font-size: clamp(42px * 1.2, calc(38.5px * 1.2 + 0.4vw) ,56px * 1.2)
+    font-size: clamp(42px * 1.6, calc(38.5px * 1.6 + 0.4vw) ,56px * 1.6)
   }
     .heroDesc{
         font-size: clamp(16px, 12px + 0.4vw ,22px)
@@ -321,7 +321,7 @@
        
     }
   .heroHeader{
-    font-size: clamp(55px * 1.2, calc(47px * 1.2 + 0.4vw) ,70px * 1.2);
+    font-size: clamp(55px * 1.6, calc(47px * 1.6 + 0.4vw) ,70px * 1.6);
   }
     .heroDesc{
         font-size: clamp(24px, 18px + 0.4vw ,28px);
