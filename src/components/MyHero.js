@@ -70,7 +70,7 @@ const MyHero = () => {
         <div class="col my-auto" >
           <div className={styles.heroText} >
             <h3 className={styles.heroHeader} >Effortless Listings for Thrift Sellers</h3>
-            <p className={styles.heroDesc}>Increase Your Sales with ThriftOps' Seamless Listing Service</p>
+            <p className={styles.heroDesc}>Increase Your Sales with ThriftOps&apos Seamless Listing Service</p>
           </div>
           <HatButton text={'Start Listing Now'} className={styles.heroHatBtn} />
         </div>
