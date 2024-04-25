@@ -6,7 +6,7 @@
 }
 
 .heroHeader{
-    font-size: 36px;
+    font-size: 16px;
     font-family: 'Proxima';
 }
 
@@ -29,7 +29,7 @@
         visibility: visible;
     }
     .heroHeader{
-        font-size: 50px;
+        font-size: 38px;
         /* src: url('/fonts/ProximaNovaMedium.otf');
         font-family: 'Proxima Nova'; */
     }
