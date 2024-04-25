@@ -64,13 +64,13 @@ const InquiryForm = () => {
                   </div>
                 </div>
 
-                {/* Message */}
+                {/* Message */
                /* <div class="row">
                   <div class="col-md-12 form-group mb-3">
                     <label className={`${styles.labels} col-form-label`} >Message *</label>
                     <textarea  className={`${styles.formInput} form-control`} name="Message" cols="30" rows="4"  placeholder="Write your message"></textarea>
                   </div>
-                </div>*/
+                </div>*/}
                 <div class="row">
                   <div class="col-md-12 form-group">
                   <div className={styles.parent}>
