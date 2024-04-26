@@ -85,19 +85,6 @@ const InquiryForm = () => {
                   
                   </div>
                   </div>
-                      <div className="col-md-6">
-          {/* Calendly form */}
-          <div
-            className={styles.calendlyContainer}
-            dangerouslySetInnerHTML={{
-              __html: `
-                <div class="calendly-inline-widget" data-url="YOUR_CALENDLY_URL_HERE"></div>
-                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-              `,
-            }}
-          />
-        </div>
-      </div>
                 </div>
               </form>
 
