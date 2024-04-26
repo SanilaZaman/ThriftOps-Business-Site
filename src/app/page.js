@@ -18,7 +18,6 @@ export default function Home() {
       <Features />
       <InfoSection/>
       <FeaturesSection />
-    <FeaturesSection />
       <InquiryForm />
       <Footer />
       {/* </Suspense> */}
