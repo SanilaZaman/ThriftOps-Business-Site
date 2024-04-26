@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react'
-
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
 const InquiryForm = () => {
   const [isActive, setIsActive] = useState(false);
@@ -25,7 +25,7 @@ const InquiryForm = () => {
         }, 1500);
   };
   return (
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    
     <div id="form" className={`${styles.formContainer}`}>
       <FormHeader/>
       <div>
