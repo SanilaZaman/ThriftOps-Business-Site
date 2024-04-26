@@ -74,13 +74,13 @@ const InquiryForm = () => {
                 <div class="row">
                   <div class="col-md-12 form-group">
                   <div className={styles.parent}>
-                    <a className={styles.hatImg}  >
+                    <a className={styles.hatImg}  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/aliafzal-9c2h/30min'});return false;">
                     <input type="image" src="/hat.svg" alt="Submit" width="103" height="64" className={styles.hatImg} style={{transform: isActive ? 'scaleY(0.5)' : null}} onClick={handleClick}/> 
                     </a>
                   {/* To not redirect to quickforms page */}
                     <iframe name="hiddenFrame" width="0" height="0" border="0" className={styles.vis} ></iframe>
                     <input type="submit" className={styles.btnblack} value="Start listing now!" />
-                  
+                 
                   <ToastContainer />
                   
                   </div>
