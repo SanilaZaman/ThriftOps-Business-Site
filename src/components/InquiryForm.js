@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react'
 
+
 const InquiryForm = () => {
   const [isActive, setIsActive] = useState(false);
 
@@ -24,6 +25,7 @@ const InquiryForm = () => {
         }, 1500);
   };
   return (
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <div id="form" className={`${styles.formContainer}`}>
       <FormHeader/>
       <div>
@@ -74,7 +76,7 @@ const InquiryForm = () => {
                 <div class="row">
                   <div class="col-md-12 form-group">
                   <div className={styles.parent}>
-                    <a className={styles.hatImg} >
+                    <a className={styles.hatImg}  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/aliafzal-9c2h/30min'});return false;" >
                     <input type="image" src="/hat.svg" alt="Submit" width="103" height="64" className={styles.hatImg} style={{transform: isActive ? 'scaleY(0.5)' : null}} onClick={handleClick}/> 
                     </a>
                   {/* To not redirect to quickforms page */}
@@ -82,11 +84,7 @@ const InquiryForm = () => {
                     <input type="submit" className={styles.btnblack} value="Start listing now!" />
                  
                   <ToastContainer />
-                   <!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/aliafzal-9c2h/30min'});return false;">Schedule time with me </a>
-<!-- Calendly link widget end -->
+                 
                   </div>
                   </div>
                 </div>
