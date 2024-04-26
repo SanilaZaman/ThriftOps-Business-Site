@@ -25,7 +25,6 @@ const InquiryForm = () => {
         }, 1500);
   };
   return (
-    
     <div id="form" className={`${styles.formContainer}`}>
       <FormHeader/>
       <div>
