@@ -52,7 +52,7 @@ const InquiryForm = () => {
                     <label htmlFor="phone" className={`${styles.labels} col-form-label`}>Phone</label>
                     <input type="text" name="Company" className={`${styles.formInput} form-control`} placeholder="Your phone" />
                   </div>
-                  {/* Needed services comment */}
+                  {/* Needed services */}
                   <div className="col-md-6 form-group mb-3">
                     <label htmlFor="services" className={`${styles.labels} col-form-label`}>Store Type *</label>
                     <select name="Needed Services" className={`${styles.formInput} form-control form-select`} placeholder="Password" required>
