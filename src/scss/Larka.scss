@@ -50,12 +50,17 @@
     height: auto;
     font: 600 66px/1.2 "Proxima Nova", Helvetica, Arial, serif;
     color: rgb(0, 0, 0);
+    padding: 10px 0px 0px 0px;
+    word-break: normal;
     @include xl {
       align-items: flex-start;
       font-size: 66px;
     }
     @include sm {
       font-size: 60px;
+    }
+    @include xxs {
+      font-size: 44px;
     }
   }
   &__medium_title {
@@ -80,6 +85,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
     gap: 9px 0px;
     width: 398px;
     @include xs {
@@ -88,6 +96,10 @@
     @include xxs {
       width: 320px;
     }
+    @include tn {
+      align-items: center;
+      column-gap: 0px;
+    }
   }
   &__content_box {
     position: relative;
@@ -95,10 +107,21 @@
     flex-direction: column;
     width: 398px;
     height: 64px;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    @include xl {
+      padding: 0px 0px 10px 0px;
+    }
     @include xxs {
       width: 280px;
       height: auto;
     }
+    @include tn {
+      padding: 0px 0px 5px 0px;
+    }
+  }
+  &__content_box:hover {
+    transform: scale(1.1);
   }
   &__btn {
     position: absolute;
@@ -129,6 +152,7 @@
     @include tn {
       align-items: center;
       width: auto;
+      padding: 7px 25px 7px 25px;
       font-size: 17px;
     }
   }
@@ -139,7 +163,10 @@
     bottom: 0px;
     left: 0px;
     width: 104px;
-    height: 64px;
+    height: 66px;
+    @include xs {
+      bottom: -8px;
+    }
   }
   &__highlight {
     position: relative;
@@ -164,12 +191,15 @@
     }
     @include tn {
       width: auto;
+      font-size: 12px;
     }
   }
   &__image11 {
     position: relative;
     width: 642px;
     min-width: 0px;
+    transition-duration: 0.3s;
+    transition-property: transform;
     @include mq-between(xxl, xxxl) {
       width: auto;
       max-width: 100%;
@@ -185,5 +215,8 @@
       margin-bottom: unset;
       width: 100%;
     }
+  }
+  &__image11:hover {
+    transform: scale(1.1);
   }
 }

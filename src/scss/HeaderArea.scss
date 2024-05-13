@@ -21,16 +21,10 @@
     width: 99px;
     height: 64px;
     @include xs {
-      margin-top: unset;
-      margin-right: unset;
-      margin-bottom: unset;
-      margin-left: unset;
-      width: 100%;
-      height: 65%;
-      object-fit: auto;
-    }
-    @include tn {
+      margin: 0px 10vw 0px 0px;
+      width: 80%;
       height: 75%;
+      object-fit: auto;
     }
   }
   &__wrapper4 {
@@ -67,6 +61,8 @@
     outline: 1px solid rgb(0, 0, 0);
     outline-offset: -1px;
     box-shadow: -1px 3px 3.5999999046325684px 0px rgba(0, 0, 0, 0.32941176470588235);
+    transition-duration: 0.3s;
+    transition-property: transform;
     @include xs {
       justify-content: center;
       column-gap: 10px;
@@ -74,6 +70,9 @@
       order: 3;
       width: 100%;
     }
+  }
+  &__box1:hover {
+    transform: scale(1.1);
   }
   &__highlight2 {
     position: relative;
@@ -110,10 +109,13 @@
     display: flex;
     width: 174px;
     height: 40px;
+    background-color: rgb(255, 255, 255);
     border-radius: 8px 8px 8px 8px;
     outline: 1px solid rgb(0, 0, 0);
     outline-offset: -1px;
-    filter: drop-shadow(-1px 3px 3.5999999046325684px rgba(0, 0, 0, 0.32941176470588235));
+    box-shadow: -1px 3px 3.5999999046325684px rgba(0, 0, 0, 0.32941176470588235);
+    transition-duration: 0.3s;
+    transition-property: transform;
     @include xs {
       align-items: center;
       column-gap: 0px;
@@ -121,6 +123,9 @@
       order: 1;
       width: 100%;
     }
+  }
+  &__box2:hover {
+    transform: scale(1.1);
   }
   &__highlight3 {
     position: relative;
