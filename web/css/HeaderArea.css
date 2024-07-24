@@ -60,7 +60,7 @@
 }
 .header-area__box1 {
   position: relative;
-  display: flex;
+  display:flex;
   gap: 0px 10px;
   width: 144px;
   height: 40px;
@@ -119,10 +119,7 @@
   width: 174px;
   height: 40px;
   background-color: white;
-  border-radius: 8px 8px 8px 8px;
-  outline: 1px solid black;
-  outline-offset: -1px;
-  box-shadow: -1px 3px 3.5999999046px rgba(0, 0, 0, 0.3294117647);
+  justify-self:center;
   transition-duration: 0.3s;
   transition-property: transform;
 }
